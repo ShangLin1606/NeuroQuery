@@ -1,4 +1,4 @@
-# SQL LLM 查詢系統
+# NeuroQuery - Text To SQL 系統
 
 這是一個使用自然語言查詢資料庫的應用系統，結合了 LLM（大型語言模型）和 MySQL 資料庫的功能。 主要使用ollama並搭配phi4模型。
 
