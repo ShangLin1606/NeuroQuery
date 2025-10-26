@@ -1,4 +1,4 @@
-# NeuroQuery — Text-to-SQL for Analysts（中英雙語）
+# NeuroQuery — Text-to-SQL for Analysts
 
 <p align="center">
   <img src="https://img.shields.io/badge/Type-Text_to_SQL-blue" />
