@@ -39,7 +39,7 @@
 ---
 
 ## 🏗 Architecture 架構
-```mermaid
+```
 flowchart LR
     A[User 問句] --> B[Streamlit UI]
     B --> C[LLMHandler<br/>Ollama(phi4)]
@@ -144,7 +144,7 @@ LIMIT 10;
 
 ---
 
-## 📂 Project Structure 專案結構（保持不動）
+## 📂 Project Structure 專案結構
 ```
 NeuroQuery-main/
 ├─ app.py
