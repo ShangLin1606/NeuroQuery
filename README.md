@@ -110,20 +110,20 @@ streamlit run app.py
 
 ##  Example Examples 範例
 **NL 問題（中文）**
-> 「列出 2024 年 5 月銷售額前 10 名的商品與金額」
+> 「列出 2025 年 5 月銷售額前 10 名的商品與金額」
 
 **Generated SQL**
 ```sql
 SELECT product_name, SUM(amount) AS total_sales
 FROM sales
-WHERE sale_date >= '2024-05-01' AND sale_date < '2024-06-01'
+WHERE sale_date >= '2025-05-01' AND sale_date < '2025-06-01'
 GROUP BY product_name
 ORDER BY total_sales DESC
 LIMIT 10;
 ```
 
 **LLM 解釋**
-> 以上查詢統計 2024/05 的銷售總額，並列出前 10 名商品。
+> 以上查詢統計 2025/05 的銷售總額，並列出前 10 名商品。
 
 ---
 
